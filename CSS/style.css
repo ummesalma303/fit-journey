@@ -1,0 +1,46 @@
+body{
+    font-family: "Inter", sans-serif;
+    /* background: rgb(0, 0, 0); */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* sheared code */
+.displey-flex{
+    display: flex;
+}
+.btn{
+    padding: 0.4rem 1.5rem;
+    background-color: rgb(230, 83, 60);
+    border-radius: 30px;
+    color: #fff;
+}
+/* navbar code start here */
+header{
+    background: linear-gradient(to bottom, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    height: 100vh;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 0;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.navbar h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.navbar ul{
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+    color: #fff;
+}
+.hide-menu-icon{
+    display: none;
+}
