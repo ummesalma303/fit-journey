@@ -11,7 +11,18 @@
         flex-direction: column;
         padding-top: 4rem;
     }
+    .banner-text h1{
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 4.5rem;
+    }
     .videos-2{
         left: 0;
+    }
+    .section-title{
+        max-width: 90%;
+    }
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
