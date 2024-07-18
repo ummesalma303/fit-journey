@@ -7,4 +7,11 @@
         color: #fff;
         font-size: 1.4rem;
     }
+    .banner-contaainer{
+        flex-direction: column;
+        padding-top: 4rem;
+    }
+    .videos-2{
+        left: 0;
+    }
 }
