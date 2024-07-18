@@ -47,7 +47,6 @@ main > section{
 }
 /* setion title */
 .section-title{
-    /* color: #fff; */
     max-width: 60%;
     text-align: center;
     margin: 0 auto;
@@ -56,6 +55,19 @@ main > section{
     font-size: 3rem;
 }
 .section-title p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+/* section title 2 */
+.section-title-2{
+    max-width: 60%;
+}
+.section-title-2 h2{
+    font-size: 3rem;
+}
+.section-title-2 p{
     color: rgba(255, 255, 255, 0.5);
     margin: 1rem 0;
     font-size: 1rem;
@@ -200,4 +212,41 @@ header{
 .run-img img{
     width: 100%;
     border-radius: 15px;
+}
+
+/* service section code start */
+.service-container{
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 40px;
+}
+.service-card{
+    align-items: center;
+    gap: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    color: #fff;
+    backdrop-filter: blur(6px);
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+.service-icon i{
+    font-size: 2.9rem;
+    background-color: rgb(230, 83, 60);
+    border-radius: 10px;
+    padding: 8px;
+}
+.service-txt h2{
+    font-size: 1.4rem;
+}
+.service-txt p{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0.9rem 0 0.5rem 0;
+}
+.service-txt a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(230, 83, 60);
 }
