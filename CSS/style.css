@@ -38,18 +38,16 @@ body{
     padding: 1rem;
 }
 /* main code  */
-main{
+main > section{
     max-width: 90%;
     margin: 0 auto;
-}
-main > section{
     margin-top: 80px;
 }
 /* setion title */
 .section-title{
     max-width: 60%;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .section-title h2{
     font-size: 3rem;
@@ -63,6 +61,7 @@ main > section{
 /* section title 2 */
 .section-title-2{
     max-width: 60%;
+    margin: 25px 0;
 }
 .section-title-2 h2{
     font-size: 3rem;
@@ -76,7 +75,6 @@ main > section{
 /* navbar code start here */
 header{
     background: linear-gradient( rgb(17, 17, 17),rgb(46, 45, 45),rgb(17, 17, 17));
-    /* height: 100vh; */
 }
 .navbar{
     justify-content: space-between;
@@ -249,4 +247,69 @@ header{
     text-decoration: none;
     font-size: 1rem;
     color: rgb(230, 83, 60);
+}
+
+/* calculator section code start */
+#sec-2{
+    max-width: 100%;
+}
+.calculator-title{
+    margin-left: 15%;
+    margin-bottom: 60px;
+}
+.calculator-container{
+    background: rgb(34, 34, 34);
+    padding: 10px 0 60px 0;
+}
+.left-and-right-side-container{
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.left-side-container h3{
+    font-size: 1.9rem;
+    margin: 25px 0;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+td,th{
+    padding: 15px 25px;
+    border: 0.5px solid rgb(255, 255,255, 0.1);
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+/* right side */
+.right-side-title h3{
+    font-size: 2.2rem;
+}
+.right-side-title p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.calculator-input-container input{
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 2px;
+    width: calc(49% - 3px);
+    font-size: 0.9rem;
+}
+#select-input{
+    width: 98%;
+}
+#icon{
+    margin-left: -35px;
+    color: rgb(255, 255, 255);
+}
+.calculator-btn{
+    padding: 10px 70px;
+    margin-top: 15px;
 }
