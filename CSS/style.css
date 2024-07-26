@@ -299,11 +299,24 @@ td{
     border: none;
     border-radius: 8px;
     margin: 8px 2px;
-    width: calc(49% - 3px);
+    width: 100%;
     font-size: 0.9rem;
 }
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 6px;
+}
+.input{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
 #select-input{
-    width: 98%;
+    width: 100%;
 }
 #icon{
     margin-left: -35px;
