@@ -374,20 +374,20 @@ footer{
 }
 .footer-container{
     grid-template-columns: repeat(3,1fr);
-    justify-items: space-between;
+    justify-content: space-between;
     padding: 40px 0;
-    gap: 220px;
+    gap: 120px;
 }
 .footer-items-1 h2{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
 .footer-items-1 p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
-    margin: 8px 0;
-   
+    margin: 14px 0;
+   line-height: 22px;
 }
 .footer-items-2 h3{
     font-size: 2rem;
