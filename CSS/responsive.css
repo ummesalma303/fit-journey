@@ -22,7 +22,7 @@
     .section-title,.section-title-2{
         max-width: 90%;
     }
-    .card-container , .service-container{
+    .card-container , .service-container, .team-card-container{
         grid-template-columns: repeat(1,1fr);
     }
     .run-container{
@@ -41,4 +41,5 @@
         justify-content: center;
         gap: 50px;
     }
+    
 }
