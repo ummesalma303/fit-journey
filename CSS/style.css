@@ -12,10 +12,10 @@ body{
     box-sizing: border-box;
 }
 /* sheared code */
-.displey-flex{
+.display-flex{
     display: flex;
 }
-.displey-grid{
+.display-grid{
     display: grid;
 }
 /* button code  */
@@ -43,7 +43,7 @@ main > section,.footer{
     margin: 0 auto;
     margin-top: 80px;
 }
-/* setion title */
+/* section title */
 .section-title{
     max-width: 60%;
     text-align: center;
@@ -100,7 +100,7 @@ header{
     display: none;
 }
 /* banner code start */
-.banner-contaainer{
+.banner-container{
     max-width: 90%;
     margin: 0 auto;
     justify-content: space-between;
@@ -133,6 +133,9 @@ header{
 }
 .banner-img{
     position: relative;
+}
+.banner-img img{
+    width: 100%;
 }
 .videos-1{
     top: 7.9rem;

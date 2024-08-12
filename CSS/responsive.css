@@ -7,7 +7,7 @@
         color: #fff;
         font-size: 1.4rem;
     }
-    .banner-contaainer, .run-container, .left-and-right-side-container{
+    .banner-container, .run-container, .left-and-right-side-container{
         flex-direction: column;
         padding-top: 4rem;
     }
